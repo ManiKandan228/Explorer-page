@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffffef;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Sofadi One", system-ui;
+    color: #7e1f64;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #7e1f64;
+}
+
+.top-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f5f5f5;
+    align-items: center; 
+}
+
+.text-container {
+    max-width: 50%;
+    position: relative; 
+}
+
+#welcome-tag p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #7e1f64;
+    margin-bottom: 10px;
+}
+
+#context p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    padding-right: 2%;
+    margin-bottom: 10%;
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+}
+
+#dropdown {
+    border: 1px solid gray;
+    color: gray;
+    width: 100%;
+    padding: 5px;
+}
+
+.button {
+    width: 20%;
+    height: 30px;
+    color: white;
+    background-color: rgb(139, 15, 87);
+    border: 1px solid rgb(139, 15, 87);
+}
+
+#image {
+    width: 700px;
+    height: auto; 
+    margin-left: 20px;
+}
+
+
+.destinations {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.destinations h2 {
+    font-size: 28px;
+    color: #7e1f64;
+    margin-bottom: 10px;
+}
+
+.destinations p {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    color: #7e1f64;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card button {
+    padding: 8px 16px;
+    background-color: #7e1f64;
+    color: #fff;
+    width: 120px;
+    height: 35px;  
+}
+
+.contact {
+    padding: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #7e1f64;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7e1f64;
+    color: #fff;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #6b1953;
+}
